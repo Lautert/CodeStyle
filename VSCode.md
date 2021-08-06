@@ -5,12 +5,12 @@ Para configurar seu ambiente Java no VSCode vamos necessitar de alguns pluguins:
 ## _Plugins_
 
 - [Java Extension Pack] - Já vai lhe fornecer boa parte da stack
-	- [Language Support for Java(TM) by Red Hat]
-	- [Debugger for Java]
-	- [Java Test Runner]
-	- [Maven for Java]
-	- [Project Manager for Java]
-	- [Visual Studio IntelliCode]
+    - [Language Support for Java(TM) by Red Hat]
+    - [Debugger for Java]
+    - [Java Test Runner]
+    - [Maven for Java]
+    - [Project Manager for Java]
+    - [Visual Studio IntelliCode]
 - [Java Code Generators] - Excelente para matar coisos simples como GET/SET
 - [Lombok Annotations Support for VS Code] - Para quem usa Lombok
 - [EditorConfig for VS Code] - Importante para manter os projetos padrões
@@ -19,7 +19,7 @@ Para configurar seu ambiente Java no VSCode vamos necessitar de alguns pluguins:
 
 - Abrir as configurações (ctrl+,), Arquivo->Preferências->Configurações
 - Abrir o formato JSON do canto superior diretor  
-	[![JSON-Config-VSCode](https://raw.githubusercontent.com/Lautert/CodeStyle/master/images/json-config-vscode.png)](https://raw.githubusercontent.com/Lautert/CodeStyle/master/images/json-config-vscode.png)
+    [![JSON-Config-VSCode](https://raw.githubusercontent.com/Lautert/CodeStyle/master/images/json-config-vscode.png)](https://raw.githubusercontent.com/Lautert/CodeStyle/master/images/json-config-vscode.png)
 - La vamos inserir 2 configurações extras
 ``` Json
     "java.format.settings.url": "https://raw.githubusercontent.com/Lautert/CodeStyle/blob/master/custom-code-style.xml",
@@ -31,8 +31,8 @@ Para configurar seu ambiente Java no VSCode vamos necessitar de alguns pluguins:
 - Aperte f1 para abrir o _Command Palette_
 - Digite: "Java: Configure Java Runtime"
 - Em "Install A JDK" seleciona a versão desejada
-	- Se Você ainda não tem ela instalada em sem computador o link de Download forncesse a versão
-	- Para verificar as versões que ele encontrou em seu computador acesse a aba "installed JDKs"
+    - Se Você ainda não tem ela instalada em sem computador o link de Download forncesse a versão
+    - Para verificar as versões que ele encontrou em seu computador acesse a aba "installed JDKs"
 
 
 ## _Extras_
@@ -42,7 +42,7 @@ Se você estiver usando Windows e assim como eu prefere o gitbash ao powershell,
 - Primeiramente baixe o [Git] e realize a instalação (Pressuponho que você vai instalar no local padrão "C:\Program Files\Git")
 - Abrir as configurações (ctrl+,), Arquivo->Preferências->Configurações
 - Abrir o formato JSON do canto superior diretor  
-	[![JSON-Config-VSCode](https://raw.githubusercontent.com/Lautert/CodeStyle/master/images/json-config-vscode.png)](https://raw.githubusercontent.com/Lautert/CodeStyle/master/images/json-config-vscode.png)
+    [![JSON-Config-VSCode](https://raw.githubusercontent.com/Lautert/CodeStyle/master/images/json-config-vscode.png)](https://raw.githubusercontent.com/Lautert/CodeStyle/master/images/json-config-vscode.png)
 - La vamos inserir 2 configurações extras
 ``` Json
 "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",

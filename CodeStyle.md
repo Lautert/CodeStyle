@@ -12,9 +12,9 @@ public ResponseEntity<ReleaseResponse> unrelease(
 ```
 ``` Java
 public enum LoginStatus {
-   	IN_PRODUCT, 
-	IN_PLATFORM, 
-	AVAILABLE;
+       IN_PRODUCT, 
+    IN_PLATFORM, 
+    AVAILABLE;
 }
 ```
 
@@ -76,9 +76,9 @@ public void createNewActToUser(User user){
 Métodos que possuam múltiplos parâmetros, devem quebrar cada parâmetro em uma linha com tabulação simples.
 ``` Java
 private void validateUserRoleCreationByApiUser (
-	Long apiUserId,
-	Integer productId,
-	UserRoleEntity userRoleToBeCreated
+    Long apiUserId,
+    Integer productId,
+    UserRoleEntity userRoleToBeCreated
 ) {
 ```
 ``` Java
@@ -113,11 +113,11 @@ Na mesma linha de raciocínio chamadas em _"chain"_ devem ser quebradas em multi
 ``` Java
 @Bean
 public Docket api() {
-	return new Docket(DocumentationType.SWAGGER_2)
-		.select()
-		.apis(RequestHandlerSelectors.basePackage("br.com.mobicare.apolo"))
-		.paths(PathSelectors.any()).build()
-		.apiInfo(apiInfo());
+    return new Docket(DocumentationType.SWAGGER_2)
+        .select()
+        .apis(RequestHandlerSelectors.basePackage("br.com.mobicare.apolo"))
+        .paths(PathSelectors.any()).build()
+        .apiInfo(apiInfo());
 }
 ```
 A palavras reservadas `True`, `False`, `Null`, devem ser escritas em minusculo.
