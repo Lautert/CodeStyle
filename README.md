@@ -1,6 +1,6 @@
 # CodeStyle
 
-Este projeto serve como orientador para codifigação.
+Este projeto serve como orientador para codificação.
 Mantendo assim um mesmo padrão em um time.
 
 ## _Arquivo Base_

@@ -1,6 +1,6 @@
 # Usando Java no VSCode
 
-Para configurar seu ambiente Java no VSCode vamos necessitar de alguns pluguins:
+Para configurar seu ambiente Java no VSCode vamos necessitar de alguns _plugins_:
 
 ## _Plugins_
 
@@ -26,18 +26,18 @@ Para configurar seu ambiente Java no VSCode vamos necessitar de alguns pluguins:
     "java.format.settings.profile": "Custom Java Formatter",
 ```
 
-## _Alternando entra SDKs_
+## _Alternando entre JDKs_
 
 - Aperte f1 para abrir o _Command Palette_
 - Digite: "Java: Configure Java Runtime"
 - Em "Install A JDK" seleciona a versão desejada
-    - Se Você ainda não tem ela instalada em sem computador o link de Download forncesse a versão
+    - Se Você ainda não tem ela instalada em seu computador o link de _Download_ fornece a versão
     - Para verificar as versões que ele encontrou em seu computador acesse a aba "installed JDKs"
 
 
 ## _Extras_
 
-Se você estiver usando Windows e assim como eu prefere o gitbash ao powershell, para configuralo basta fazer o seguinte:
+Se você estiver usando Windows e assim como eu prefere o gitbash ao powershell, para configurá-lo basta fazer o seguinte:
 
 - Primeiramente baixe o [Git] e realize a instalação (Pressuponho que você vai instalar no local padrão "C:\Program Files\Git")
 - Abrir as configurações (ctrl+,), Arquivo->Preferências->Configurações
