@@ -22,7 +22,7 @@ Para configurar seu ambiente Java no VSCode vamos necessitar de alguns pluguins:
     [![JSON-Config-VSCode](https://raw.githubusercontent.com/Lautert/CodeStyle/master/images/json-config-vscode.png)](https://raw.githubusercontent.com/Lautert/CodeStyle/master/images/json-config-vscode.png)
 - La vamos inserir 2 configurações extras
 ``` Json
-    "java.format.settings.url": "https://raw.githubusercontent.com/Lautert/CodeStyle/blob/master/custom-code-style.xml",
+    "java.format.settings.url": "https://raw.githubusercontent.com/Lautert/CodeStyle/main/custom-code-style.xml",
     "java.format.settings.profile": "Custom Java Formatter",
 ```
 
