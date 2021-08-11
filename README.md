@@ -15,5 +15,5 @@ Este pode ser importado para ser usado em [VSCode], [IntelliJ].
 
    [CodeStyle.md]: <https://github.com/Lautert/CodeStyle/blob/master/CodeStyle.md>
    [custom-code-style.xml]: <https://raw.githubusercontent.com/Lautert/CodeStyle/main/custom-code-style.xml>
-   [VSCode]: <https://raw.githubusercontent.com/Lautert/CodeStyle/blob/master/VSCode.md>
-   [IntelliJ]: <https://raw.githubusercontent.com/Lautert/CodeStyle/blob/master/IntelliJ.md>
+   [VSCode]: <https://github.com/Lautert/JavaCodeStyle/blob/main/VSCode.md>
+   [IntelliJ]: <https://github.com/Lautert/JavaCodeStyle/blob/main/IntelliJ.md>
